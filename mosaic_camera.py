@@ -24,7 +24,7 @@ def mosaic(img, rect, size):
     return img2
 
 while True:
-    #前景の動画を読み込み
+    #動画を読み込み
     _,frame = cap.read()
     frame = cv2.resize(frame, (frx,fry))
     
